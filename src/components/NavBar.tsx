@@ -9,8 +9,8 @@ export default function Navbar() {
     const [showMenu, setShowMenu] = useState(false);
 
     return (
-        <div className="sticky top-5 z-10">
-            <nav className='navbar rounded-full z-10 flex shadow-lg items-center min-w-screen p-1'>
+        <div className="fixed top-0 z-10 w-full">
+            <nav className='navbar z-10 flex shadow-lg items-center min-w-screen p-1'>
 
                 <ul className='desktopMenu rounded-full w-full h-8 gap-4 lg items-center sm:flex text-black'>
                     <li className='flex gap-4 items-center'>
@@ -26,15 +26,15 @@ export default function Navbar() {
                         </Link>
                     </li>
                 </ul>
-                <ul className='desktopMenu rounded-full w-full h-8 gap-4 lg items-center justify-end sm:flex text-black'>
+                <ul className='desktopMenu rounded-full w-full h-8 gap-8 lg items-center justify-end sm:flex text-black pr-10'>
                     <li className='flex gap-4 items-center'>
-                        <Link href="#" className="btn-primary">Contact</Link>
+                        <Link href="#" className="text-white">Contact</Link>
                     </li>
                     <li className='flex gap-4 items-center'>
-                        <Link href="/team" className="btn-primary">Team</Link>
+                        <Link href="/team" className="text-white">Team</Link>
                     </li>
                     <li className='flex gap-4 items-center'>
-                        <Link href="/projects" className="btn-primary">Projects</Link>
+                        <Link href="/projects" className="text-white">Projects</Link>
                     </li>
                 </ul>
 
@@ -49,7 +49,7 @@ export default function Navbar() {
                     <li className='w-1/4 pt-1 ta-r'>
                         <Link href={"/"}>
                             <span className="logo ta-r">
-                                <FontAwesomeIcon className="text-purple" icon={faCodeBranch} />
+                                <FontAwesomeIcon className="text-white" icon={faCodeBranch} />
                             </span>
                         </Link>
                     </li>

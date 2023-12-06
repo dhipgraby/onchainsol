@@ -9,14 +9,14 @@ export default function Services() {
     }
 
     function renderTitle(title: string) {
-        return <h3 className="text-xl mt-10">
+        return <h3 className="text-xl mt-10 p-2">
             {title}
         </h3>
     }
 
     return (
-        <div className="services">
-            <Flexsor columns={3} grap={true}>
+        <div className="ta-c">
+            <Flexsor columns={3}>
                 <div>
                     {renderIcon(faCode)}
                     {renderTitle("Custom Software development")}

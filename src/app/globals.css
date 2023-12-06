@@ -40,8 +40,9 @@
 
 
 :root {
-  --purple: #6f63ff;
+  --purple: #594ce0;
   --light-purple: #aba4f7;
+  --main: #afc1ec;
   --grey: rgb(94, 94, 94);
   --bg-dark: #383a40;
   --bg-dark-100: #313338;
@@ -78,15 +79,17 @@
   color: white;
   font-family: Satoshi !important;
   height: 100vh;
-  max-width: 1200px;
+
   margin: auto;
   background-color: var(--bg-dark-300)
 }
 
 .main {
+  max-width: 1400px;
   margin: auto;
   margin-top: 50px;
   min-height: 86vh;
+  padding: 0px 20px;
 }
 
 .footer {
@@ -159,21 +162,26 @@ p {
 nav {
   z-index: 2;
   font-weight: 500;
-  max-width: 98%;
+  width: 100%;
   font-size: 14px;
   letter-spacing: 0.5px;
-  background-color: var(--bg-dark-100);
-  border: solid 3px var(--bg-dark);
+  background-color: var(--bg-dark-400);
+  border-bottom: solid 2px var(--bg-dark);
   margin: auto;
   color: white;
   overflow: hidden;
   animation: expandWidth 2s ease-in-out 1;
 }
 
-nav .btn-primary, nav .title {
+nav .btn-primary, nav .title, nav ul li {
   opacity: 1;
   overflow: hidden;
+  transition: 0.5s;
   animation: showHidden 2.5s ease-in-out 1;
+}
+
+nav ul li a:hover {
+  color: var(--light-purple);
 }
 
 nav ul {
@@ -217,6 +225,19 @@ nav ul {
   margin: 20px auto;
   background-color: var(--bg-dark);
   height: 2px;
+  animation: showHidden 2.5s ease-in-out 1;
+}
+
+.showHidden {
+  animation: showHidden 2.5s ease-in-out 1;
+}
+
+.divider-left {
+  max-width: 150px;
+  margin: 20px 0px 10px;
+  background-color: var(--main);
+  height: 2px;
+  animation: expandWidth 4s ease-in-out 1;
 }
 
 .header {
@@ -228,11 +249,11 @@ nav ul {
 }
 
 .text-main {
-  color: #7093e4;
+  color: var(--main);
 }
 
 .text-purple {
-  color: rgb(208, 133, 208)
+  color: rgb(237, 176, 254)
 }
 
 .ta-c {
@@ -280,20 +301,6 @@ nav ul {
   padding: 8px 15px;
 }
 
-@media screen and (max-width: 1200px) {
-  .desktopMenu {
-    display: none !important;
-  }
-
-  .mobileMenu {
-    display: flex !important;
-  }
-
-  .hideMenu {
-    display: none !important;
-  }
-}
-
 .spinner {
   border: 4px solid rgba(255, 255, 255, 0.3);
   border-radius: 50%;
@@ -305,11 +312,15 @@ nav ul {
   animation: spin 2s linear infinite;
 }
 
+.blue-gradient {
+  background-image: radial-gradient(closest-side at 18% 69%, blue -15%, transparent 136%);
+}
+
 .valign-middle {
   display: table !important;
 }
 
-.valign-middle div:first-child {
+.valign-middle div:first {
   display: table-cell;
   vertical-align: middle;
 }
@@ -377,4 +388,29 @@ tbody tr:hover td:first-child:after {
 
 .services svg:hover {
   animation: swing 2s infinite;
+}
+
+
+.flexor-2, .flexor-3, .flexor-4 {
+  transition: 0.5s;
+}
+
+.flexor-2 {
+  margin: 30px 0px;
+  width: 50%;
+}
+
+.flexor-3 {
+  margin: 30px 0px;
+  width: 33%;
+}
+
+.flexor-4 {
+  margin: 30px 0px;
+  width: 25%;
+}
+
+.flexor-5 {
+  margin: 30px 0px;
+  width: 20%;
 }

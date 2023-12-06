@@ -6,16 +6,15 @@ interface FlexsorProps {
 }
 
 const Flexsor: React.FC<FlexsorProps> = ({ children, columns }) => {
-    const calculateColumnWidth = () => {
-        return `1/${columns}`;
-    };
+
+    columns = columns > 5 ? 5 : columns
 
     return (
         <div className="flex flex-wrap">
             {children.map((child, index) => (
                 <div
                     key={index}
-                    className={`w-full lg:w-${calculateColumnWidth()} md:w-1/2 sm:w-full my-10`}
+                    className={`flexor-${columns}`}
                 >
                     {child}
                 </div>

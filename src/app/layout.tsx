@@ -1,6 +1,7 @@
 "use client";
 import "./globals.css";
 import "./animations.css";
+import "./responsive.css";
 import '@fortawesome/fontawesome-svg-core/styles.css'
 import "react-toastify/dist/ReactToastify.css";
 import Navbar from "../components/NavBar";

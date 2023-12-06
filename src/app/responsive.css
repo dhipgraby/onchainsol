@@ -1,0 +1,34 @@
+@media screen and (max-width: 1200px) {
+    .desktopMenu {
+        display: none !important;
+    }
+
+    .mobileMenu {
+        display: flex !important;
+    }
+
+    .hideMenu {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .flexor-3 {
+        width: 50%;
+    }
+
+    .flexor-4 {
+        width: 33%;
+    }
+
+    .flexor-5 {
+        width: 25%;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .flexor-2, .flexor-3, .flexor-4, .flexor-5 {
+        width: 100%;
+    }
+}
