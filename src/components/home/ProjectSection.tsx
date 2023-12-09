@@ -37,7 +37,7 @@ export default function ProjectSection({
     img = imgRoute + img
 
     return (
-        <div className={`${backgroundColor} rounded-lg my-4 shadow-lg overflow-hidden projectBox`}>
+        <div className={`${backgroundColor} rounded-lg my-10 shadow-lg overflow-hidden projectBox`}>
             <Flexsor columns={2} >
                 <div className="ta-l relative p-6">
                     <Image className="rounded-lg" src={logo} height={sizes[0]} width={sizes[1]} sizes={"100%"} alt={title} />
@@ -62,17 +62,7 @@ export default function ProjectSection({
                 <div className="ta-c p-4 relative h-full">
 
                     <div className="projectImg" style={{
-                        maxWidth: "300px",
-                        minHeight: "250px",
-                        height: "100%",
-                        top: 0,
-                        backgroundImage: `url('${img}')`,
-                        backgroundSize: "100%",
-                        backgroundRepeat: "no-repeat",
-                        borderRadius: "20px",
-                        marginTop: "45px",
-                        border: "solid 6px black",
-                        transition: "1s"
+                        backgroundImage: `url('${img}')`
                     }}>
 
                     </div>

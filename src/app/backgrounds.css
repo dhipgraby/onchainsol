@@ -1,0 +1,47 @@
+.bg-main {
+    background-color: var(--bg-dark)
+}
+
+.bg-main-100 {
+    background-color: var(--bg-dark-100)
+}
+
+.bg-main-200 {
+    background-color: var(--bg-dark-200)
+}
+
+.bg-main-300 {
+    background-color: var(--bg-dark-300)
+}
+
+.bg-main-400 {
+    background-color: var(--bg-dark-400)
+}
+
+.bg-green {
+    background-color: rgb(120, 228, 149);
+}
+
+.bg-indigo {
+    background-color: rgb(150, 117, 180);
+}
+
+.bg-blue {
+    background-color: #4c3b5f;
+}
+
+.bg-l-blue {
+    background-color: #c4bff6;
+}
+
+.bg-beis {
+    background-color: #c3c0a8;
+}
+
+.bg-beis {
+    background-color: #c3c0a8;
+}
+
+.bg-red {
+    background-color: rgb(152, 95, 95);
+}

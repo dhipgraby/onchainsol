@@ -17,7 +17,7 @@ export default function Workflow() {
     function renderBoxes(data: any) {
 
         return (
-            <div className="bg-slate-700 p-5 rounded-xl mt-10 mb-10" key={data.title}>
+            <div className="bg-slate-700 p-5 rounded-xl my-10" key={data.title}>
                 <div className="mt-5">
                     <h1 className="text-2xl">{data.title}</h1>
                 </div>
@@ -33,7 +33,7 @@ export default function Workflow() {
     return (
         <div className="mt-40">
             <h1 className="text-3xl">
-                Our Workflow
+                Our <span className="text-main">Workflow</span>
             </h1>
             {ProductData.map((el: any) => renderBoxes(el))}
         </div>

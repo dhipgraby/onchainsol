@@ -13,16 +13,16 @@ export default function Design() {
                 DESIGN
             </h3>
             <hr className="divider-left" />
-            <Flexsor columns={5}>
-                <div className="ta-c">
+            <Flexsor columns={5} forced={true}>
+                <div className="ta-c my-4">
                     {renderIcon(faFigma, "text-red-300")}
                     {renderTitle("FIGMA")}
                 </div>
-                <div className="ta-c">
+                <div className="ta-c my-4">
                     <Image src={PS} height={40} width={40} alt="nest" />
                     {renderTitle("PHOTOSHOP")}
                 </div>
-                <div className="ta-c">
+                <div className="ta-c my-4">
                     {renderIcon(faImages, "text-indigo-400")}
                     {renderTitle("STABLE DIfFUSION")}
                 </div>

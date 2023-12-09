@@ -27,7 +27,8 @@
     }
 }
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 600px) {
+
     .flexor-2, .flexor-3, .flexor-4, .flexor-5 {
         width: 100%;
     }
@@ -39,5 +40,9 @@
 
     .blue-gradient {
         background-image: radial-gradient(closest-side at 50% 70%, #413fbc -15%, transparent 106%);
+    }
+
+    .flexor-forced-2 {
+        width: 50% !important;
     }
 }

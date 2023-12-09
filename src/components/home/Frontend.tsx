@@ -12,20 +12,20 @@ export default function Frontend() {
                 FRONT-END
             </h3>
             <hr className="divider-left" />
-            <Flexsor columns={5}>
-                <div className="ta-c">
+            <Flexsor columns={5} forced={true}>
+                <div className="ta-c my-4">
                     {renderIcon(faReact, "text-blue-300")}
                     {renderTitle("REACT")}
                 </div>
-                <div className="ta-c">
+                <div className="ta-c my-4">
                     {renderIcon(faJsSquare, "text-white")}
                     {renderTitle("NEXT JS")}
                 </div>
-                <div className="ta-c">
+                <div className="ta-c my-4">
                     {renderIcon(faVuejs, "text-green-400")}
                     {renderTitle("VUE")}
                 </div>
-                <div className="ta-c">
+                <div className="ta-c my-4">
                     {renderIcon(faStripeS, "text-red-500")}
                     {renderTitle("SVELTE")}
                 </div>

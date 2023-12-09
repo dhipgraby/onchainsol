@@ -9,8 +9,7 @@ import Projects from "@/components/home/Projects";
 export default function Home() {
   return (
     <>
-      <main className="max-w-5xl mx-auto pt-40 pb-20 mb-40">
-
+      <div className="max-w-5xl mx-auto pt-40 pb-40">
         <Flexsor columns={2}>
           <div className='ta-l headerTitle'>
             <h1 className='text-4xl leading-normal blue-gradient'>
@@ -28,8 +27,7 @@ export default function Home() {
             <FontAwesomeIcon className="headerLogo" icon={faCodeBranch} />
           </div>
         </Flexsor>
-
-      </main>
+      </div>
       <About />
       <Workflow />
       <TechStack />
