@@ -45,3 +45,17 @@
 .bg-red {
     background-color: rgb(152, 95, 95);
 }
+
+/*************************** GRADIENTS *******************************/
+
+.gradient-dark {
+    background-image: linear-gradient(45deg, black, transparent);
+}
+
+.gradient-light {
+    background-image: linear-gradient(45deg, #c7c7c7, transparent);
+}
+
+.gradient-clear {
+    background-image: linear-gradient(200deg, #323232, transparent);
+}

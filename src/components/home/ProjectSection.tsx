@@ -41,7 +41,7 @@ export default function ProjectSection({
             <Flexsor columns={2} >
                 <div className="ta-l relative p-6">
                     <Image className="rounded-lg" src={logo} height={sizes[0]} width={sizes[1]} sizes={"100%"} alt={title} />
-                    <div className="mt-4">
+                    <div className="mt-4 max-w-md">
                         <h1 className={`text-2xl font-normal ${(palette === "dark") ? 'text-black' : 'text-main'}`}>
                             {title}
                         </h1>

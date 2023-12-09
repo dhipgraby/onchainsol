@@ -1,6 +1,7 @@
 "use client";
 import "./globals.css";
 import "./backgrounds.css";
+import "./buttons.css";
 import "./animations.css";
 import "./responsive.css";
 import '@fortawesome/fontawesome-svg-core/styles.css'

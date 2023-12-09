@@ -1,6 +1,6 @@
 [
     {
-        "backgroundColor": "bg-white",
+        "backgroundColor": "bg-white gradient-light",
         "sizes": [
             240,
             240
@@ -16,7 +16,7 @@
         "external_link": "https://centaurify.io/"
     },
     {
-        "backgroundColor": "bg-blue",
+        "backgroundColor": "bg-blue gradient-dark",
         "sizes": [
             80,
             80
@@ -28,11 +28,11 @@
         "img": "txcityimg.png",
         "logo": "txcity.png",
         "id": 2,
-        "button": "btn-dark",
+        "button": "btn-primary",
         "external_link": "https://txcity.com/"
     },
     {
-        "backgroundColor": "bg-black",
+        "backgroundColor": "bg-black gradient-clear",
         "sizes": [
             80,
             80
@@ -48,23 +48,23 @@
         "external_link": "https://lastbloodlines.com/"
     },
     {
-        "backgroundColor": "bg-beis",
+        "backgroundColor": "bg-beis gradient-dark",
         "sizes": [
             100,
             100
         ],
-        "palette": "dark",
+        "palette": "light",
         "title": "TheGenius.online",
         "subtitle": "Empowered AI Framework",
         "content": "AI with extensive conversational memory. High level of awareness. Assistance with coding, writer support, content creation, and more, all while ensuring outstanding results.",
         "img": "pandaimg.png",
         "logo": "genius.png",
         "id": 4,
-        "button": "btn-dark",
+        "button": "btn-white",
         "external_link": "https://thegenius.online/"
     },
     {
-        "backgroundColor": "bg-white",
+        "backgroundColor": "bg-white gradient-light",
         "sizes": [
             160,
             160
@@ -74,7 +74,7 @@
         "subtitle": "Dencentralized Digital Identity",
         "content": "Contribute to Medical institutes, organizations, researchers, and more by providing your Lab results as verifiable credentials (VC)",
         "img": "medicalimg.png",
-        "logo": "medical.webp",
+        "logo": "medical.png",
         "id": 4,
         "button": "btn-dark",
         "external_link": "https://medical-research-hub.vercel.app/"
