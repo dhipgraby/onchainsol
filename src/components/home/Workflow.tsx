@@ -17,7 +17,7 @@ export default function Workflow() {
     function renderBoxes(data: any) {
 
         return (
-            <div className="bg-slate-700 p-5 rounded-xl mt-10 mb-20" key={data.title}>
+            <div className="bg-slate-700 p-5 rounded-xl mt-10 mb-10" key={data.title}>
                 <div className="mt-5">
                     <h1 className="text-2xl">{data.title}</h1>
                 </div>

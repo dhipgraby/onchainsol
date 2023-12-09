@@ -17,27 +17,27 @@ export default function Services() {
     return (
         <div className="ta-c">
             <Flexsor columns={3}>
-                <div>
+                <div className="mt-8">
                     {renderIcon(faCode)}
                     {renderTitle("Custom Software development")}
                 </div>
-                <div>
+                <div className="mt-8">
                     {renderIcon(faLaptop)}
                     {renderTitle("Website Development Services")}
                 </div>
-                <div>
+                <div className="mt-8">
                     {renderIcon(faDatabase)}
                     {renderTitle("Databases & Analitics Services")}
                 </div>
-                <div>
+                <div className="mt-8">
                     {renderIcon(faCloud)}
                     {renderTitle("Cloud Services")}
                 </div>
-                <div>
+                <div className="mt-8">
                     {renderIcon(faCog)}
                     {renderTitle("DevOps Services")}
                 </div>
-                <div>
+                <div className="mt-8">
                     {renderIcon(faWindowRestore)}
                     {renderTitle("UI/UX Services")}
                 </div>

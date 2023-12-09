@@ -1,7 +1,7 @@
 import { faFigma } from "@fortawesome/free-brands-svg-icons/faFigma";
 import { renderIcon, renderTitle } from "./Render";
 import { faImages } from "@fortawesome/free-solid-svg-icons";
-import PS from "../../../public/images/ps.svg"
+import PS from "../../../public/images/ps.png"
 import Flexsor from "../Flexsor";
 import Image from "next/image";
 

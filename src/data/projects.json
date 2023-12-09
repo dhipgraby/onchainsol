@@ -1,0 +1,82 @@
+[
+    {
+        "backgroundColor": "bg-white",
+        "sizes": [
+            220,
+            220
+        ],
+        "palette": "dark",
+        "title": "Centaurify.io",
+        "subtitle": "THE NEW NORM OF MUSIC CULTURE",
+        "content": "Discover, collect, experience and connect with your favourite artists. Become a part of shaping the new digital norm of music culture.",
+        "img": "centimg.png",
+        "logo": "centlogo.png",
+        "id": 1,
+        "button": "btn-dark",
+        "external_link": "https://centaurify.io/"
+    },
+    {
+        "backgroundColor": "bg-blue",
+        "sizes": [
+            80,
+            80
+        ],
+        "palette": "light",
+        "title": "TxCity.io",
+        "subtitle": "See the Blockchain. Live.",
+        "content": "TxCity is a real time transaction and mempool visualizer featuring Bitcoin, Ethereum, Bitcoin Cash, Monero and Litecoin.",
+        "img": "txcityimg.png",
+        "logo": "txcity.png",
+        "id": 2,
+        "button": "btn-dark",
+        "external_link": "https://txcity.com/"
+    },
+    {
+        "backgroundColor": "bg-black",
+        "sizes": [
+            80,
+            80
+        ],
+        "palette": "light",
+        "title": "LastBloodLines.com",
+        "subtitle": "Lastest NFT Protocol. Bringing the best quality to NFT space",
+        "content": "Traverse the timeline of the Last Bloodlines. A tale of man vs machine, tradition vs innovation, and survival vs oblivion.",
+        "img": "lbimg.png",
+        "logo": "lblogo.jpg",
+        "id": 3,
+        "button": "btn-red",
+        "external_link": "https://lastbloodlines.com/"
+    },
+    {
+        "backgroundColor": "bg-beis",
+        "sizes": [
+            100,
+            100
+        ],
+        "palette": "dark",
+        "title": "TheGenius.online",
+        "subtitle": "Empowered AI Framework",
+        "content": "AI with extensive conversational memory. High level of awareness. Assistance with coding, writer support, content creation, and more, all while ensuring outstanding results.",
+        "img": "pandaimg.png",
+        "logo": "genius.png",
+        "id": 4,
+        "button": "btn-dark",
+        "external_link": "https://thegenius.online/"
+    },
+    {
+        "backgroundColor": "bg-white",
+        "sizes": [
+            160,
+            160
+        ],
+        "palette": "dark",
+        "title": "Medical Reseach Hub",
+        "subtitle": "Dencentralized Digital Identity",
+        "content": "Contribute to Medical institutes, organizations, researchers, and more by providing your Lab results as verifiable credentials (VC)",
+        "img": "medicalimg.png",
+        "logo": "medical.webp",
+        "id": 4,
+        "button": "btn-dark",
+        "external_link": "https://medical-research-hub.vercel.app/"
+    }
+]

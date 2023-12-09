@@ -4,14 +4,15 @@ import About from "@/components/About";
 import Workflow from "@/components/home/Workflow";
 import TechStack from "@/components/home/TechStack";
 import Flexsor from "@/components/Flexsor";
+import Projects from "@/components/home/Projects";
 
 export default function Home() {
   return (
     <>
-      <main className="max-w-5xl mx-auto pt-60 pb-24 mb-40">
+      <main className="max-w-5xl mx-auto pt-40 pb-20 mb-40">
 
         <Flexsor columns={2}>
-          <div className='ta-l'>
+          <div className='ta-l headerTitle'>
             <h1 className='text-4xl leading-normal blue-gradient'>
               Software &
               <br />
@@ -23,7 +24,7 @@ export default function Home() {
               Unlock the Potential of your business with  cutting-edge technology
             </p>
           </div>
-          <div className='ta-c'>
+          <div className='ta-c mt-10'>
             <FontAwesomeIcon className="headerLogo" icon={faCodeBranch} />
           </div>
         </Flexsor>
@@ -32,6 +33,7 @@ export default function Home() {
       <About />
       <Workflow />
       <TechStack />
+      <Projects />
     </>
   )
 }
