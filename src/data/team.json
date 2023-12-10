@@ -1,0 +1,45 @@
+[
+    {
+        "name": "Kenneth Zambrano",
+        "linekdin": "https://www.linkedin.com/in/kenneth-zambrano-11247710a/",
+        "jobs": [
+            "Full-stack",
+            "Blockchain",
+            "Founder"
+        ],
+        "content": "With over 8 years as a FullStack and Blockchain developer, kenneth creates intricate Dapps, robust microservices, and applications from the ground up. ",
+        "img": "kenneth.png"
+    },
+    {
+        "name": "Carlos Zambrano",
+        "linekdin": "https://www.linkedin.com/in/carlos-zambrano-thecil/",
+        "jobs": [
+            "Full-stack",
+            "Blockchain"
+        ],
+        "content": "Since 2016 into software systems and blockchain development. Solid fundamental of software architecture and consultancy.",
+        "img": "carlos.jpeg"
+    },
+    {
+        "name": "Ivo Garofalo",
+        "linekdin": "https://www.linkedin.com/in/ivogarofalo/",
+        "jobs": [
+            "Backend",
+            "Auditor",
+            "Blockchain"
+        ],
+        "content": "Working with blockchain technology for over a decade, genuinely believer in the power of decentralization. Strong knowledge on smart contracts and decetralized solutions.",
+        "img": "ivo.jpeg"
+    },
+    {
+        "name": "Gabriel Caro",
+        "linekdin": "https://www.linkedin.com/in/gabriel-caro-103b0671/",
+        "jobs": [
+            "DevOps",
+            "Security",
+            "Blockchain Nodes Expert"
+        ],
+        "content": "Gabriel, a tech enthusiast and computer science specialist with +15 years of experience in server management and security, is deeply passionate about cryptography and artificial intelligence",
+        "img": "gabriel.jpg"
+    }
+]

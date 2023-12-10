@@ -5,6 +5,7 @@ import Workflow from "@/components/home/Workflow";
 import TechStack from "@/components/home/TechStack";
 import Flexsor from "@/components/Flexsor";
 import Projects from "@/components/home/Projects";
+import Contact from "@/components/Contact";
 
 export default function Home() {
   return (
@@ -32,6 +33,8 @@ export default function Home() {
       <Workflow />
       <TechStack />
       <Projects />
+      <Contact />
+
     </>
   )
 }

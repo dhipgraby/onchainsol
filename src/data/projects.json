@@ -48,19 +48,19 @@
         "external_link": "https://lastbloodlines.com/"
     },
     {
-        "backgroundColor": "bg-beis gradient-dark",
+        "backgroundColor": "bg-beis",
         "sizes": [
             100,
             100
         ],
-        "palette": "light",
+        "palette": "dark",
         "title": "TheGenius.online",
         "subtitle": "Empowered AI Framework",
         "content": "AI with extensive conversational memory. High level of awareness. Assistance with coding, writer support, content creation, and more, all while ensuring outstanding results.",
         "img": "pandaimg.png",
         "logo": "genius.png",
         "id": 4,
-        "button": "btn-white",
+        "button": "btn-dark",
         "external_link": "https://thegenius.online/"
     },
     {
