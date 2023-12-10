@@ -4,6 +4,8 @@ import TeamMember from "@/components/team/TeamMember"
 import Contact from "@/components/Contact"
 
 export default function Team() {
+
+
     return (
         <>
             <div className="ta-c max-w-2xl mx-auto">

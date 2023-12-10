@@ -14,11 +14,11 @@ export default function Home() {
         <Flexsor columns={2}>
           <div className='ta-l headerTitle'>
             <h1 className='text-4xl leading-normal blue-gradient'>
-              Software &
+              Software ,
               <br />
-              Web Development
+              Web & Web3 
               <br />
-              Company
+              Development Company
             </h1>
             <p className="text-gray-300">
               Unlock the Potential of your business with  cutting-edge technology
