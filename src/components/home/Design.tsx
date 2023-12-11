@@ -9,20 +9,20 @@ export default function Design() {
 
     return (
         <>
-            <h3 className="text-2xl text-main font-normal uppercase leading-normal mt-20">
+            <h3 className="text-3xl text-purple uppercase leading-normal mt-20">
                 DESIGN
             </h3>
             <hr className="divider-left" />
             <Flexsor columns={5} forced={true}>
-                <div className="ta-c my-4">
+                <div className="ta-c mt-12">
                     {renderIcon(faFigma, "text-red-300")}
                     {renderTitle("FIGMA")}
                 </div>
-                <div className="ta-c my-4">
+                <div className="ta-c mt-12">
                     <Image src={PS} height={40} width={40} alt="nest" />
                     {renderTitle("PHOTOSHOP")}
                 </div>
-                <div className="ta-c my-4">
+                <div className="ta-c mt-12">
                     {renderIcon(faImages, "text-indigo-400")}
                     {renderTitle("STABLE DIfFUSION")}
                 </div>

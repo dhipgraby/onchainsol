@@ -53,7 +53,7 @@ export default function ProjectSection({
                         </p>
                         <div className="mt-10">
                             <Link href={external_link} className={`${button}`} target="_blank">
-                                Read Study Case
+                                Visit
                             </Link>
                         </div>
                     </div>

@@ -1,0 +1,26 @@
+[
+    {
+        "name": "About us",
+        "link": "/team",
+        "scrollto": null,
+        "isButton": false
+    },
+    {
+        "name": "Web3",
+        "link": "/web3",
+        "scrollto": null,
+        "isButton": false
+    },
+    {
+        "name": "Projects",
+        "link": "/#projects",
+        "scrollto": null,
+        "isButton": false
+    },
+    {
+        "name": "Contact",
+        "link": null,
+        "scrollto": "contactSection",
+        "isButton": false
+    }
+]

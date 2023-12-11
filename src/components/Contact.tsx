@@ -11,7 +11,7 @@ export default function Contact() {
             </h1>
             <p className="my-4 text-gray-300">We are always open to hear about your project</p>
             <div className="mt-10">
-                <button className="btn-white text-4xl font-normal px-5">
+                <button className="btn-primary text-4xl font-medium px-5">
                     Contact us
                 </button>
             </div>

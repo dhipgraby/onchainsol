@@ -2,6 +2,7 @@
 import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faClose, faCodeBranch } from "@fortawesome/free-solid-svg-icons";
+import MenuItems from "../data/menu.json"
 import Link from "next/link";
 
 export default function Navbar() {
@@ -27,18 +28,21 @@ export default function Navbar() {
                     </li>
                 </ul>
                 <ul className='desktopMenu rounded-full w-full h-8 gap-8 lg items-center justify-end sm:flex text-black pr-10'>
-                    <li className='flex gap-4 items-center'>
-                        <Link href="#" className="text-white">Contact</Link>
-                    </li>
-                    <li className='flex gap-4 items-center'>
-                        <Link href="/team" className="text-white">Team</Link>
-                    </li>
-                    <li className='flex gap-4 items-center'>
-                        <Link href="/projects" className="text-white">Projects</Link>
-                    </li>
+
+                    {
+                        MenuItems.map((item, i) => {
+                            return item.link !== null
+                                ? <li className='flex gap-4 items-center' key={i}>
+                                    <Link href={item.link} className="text-white">{item.name}</Link>
+                                </li>
+                                :
+                                <li className='flex gap-4 items-center' key={i}>
+                                    <button className="btn-dark">{item.name}</button>
+                                </li>
+                        })
+                    }
+
                 </ul>
-
-
 
                 <ul className='mobileMenu flex w-full items-center justify-between'>
                     <li onClick={() => setShowMenu(prev => !prev)} className='w-1/4 pt-1 ml-3 cursor-pointer'>
@@ -57,15 +61,19 @@ export default function Navbar() {
             </nav>
 
             <ul className={`${showMenu ? "" : "hideMenu"} drowdown mobileMenu sticky z-10 flex-col`}>
-                <li>
-                    <Link onClick={() => setShowMenu(false)} href="#" className="px-2">Contact</Link>
-                </li>
-                <li>
-                    <Link onClick={() => setShowMenu(false)} href="/team" className="px-2">Team</Link>
-                </li>
-                <li>
-                    <Link onClick={() => setShowMenu(false)} href="/projects" className="px-2">Projects</Link>
-                </li>
+
+                {
+                    MenuItems.map((item, i) => {
+                        return item.link !== null
+                            ? <li className='ml-2' key={i}>
+                                <Link onClick={() => setShowMenu(false)} href={item.link} className="text-white">{item.name}</Link>
+                            </li>
+                            :
+                            <li className='ml-2' key={i}>
+                                <button onClick={() => setShowMenu(false)} >{item.name}</button>
+                            </li>
+                    })
+                }
             </ul>
         </div>
     );

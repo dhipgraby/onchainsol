@@ -11,28 +11,28 @@ export default function Backend() {
 
     return (
         <>
-            <h3 className="text-2xl text-main font-normal uppercase leading-normal mt-10">
+            <h3 className="text-3xl text-purple uppercase leading-normal mt-10">
                 BACK-END
             </h3>
             <hr className="divider-left" />
             <Flexsor columns={5} forced={true}>
-                <div className="ta-c my-4">
+                <div className="ta-c mt-12">
                     {renderIcon(faNodeJs, "text-green-500")}
                     {renderTitle("NODE")}
                 </div>
-                <div className="ta-c my-4">
+                <div className="ta-c mt-12">
                     <Image src={NestIcon} height={40} width={40} alt="nest" />
                     {renderTitle("NEST JS")}
                 </div>
-                <div className="ta-c my-4">
+                <div className="ta-c mt-12">
                     {renderIcon(faPython, "text-yellow-400")}
                     {renderTitle("PYTHON")}
                 </div>
-                <div className="ta-c my-4">
+                <div className="ta-c mt-12">
                     {renderIcon(faPhp, "text-blue-400")}
                     {renderTitle("PHP")}
                 </div>
-                <div className="ta-c my-4">
+                <div className="ta-c mt-12">
                     {renderIcon(faEthereum, "text-indigo-400")}
                     {renderTitle("SOLIDITY")}
                 </div>

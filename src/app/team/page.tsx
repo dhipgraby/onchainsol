@@ -8,17 +8,17 @@ export default function Team() {
 
     return (
         <>
-            <div className="ta-c max-w-2xl mx-auto">
+            <div className="ta-c max-w-2xl mx-auto blue-gradient-big">
                 <div className="pt-20 pb-20">
-                    <h1 className="text-4xl">
+                    <h1 className="text-5xl">
                         About <span className="text-main">Us</span>
                     </h1>
                     <hr className="divider" />
-                    <p className="text-gray-300">
+                    <p className="text-gray-200 text-xl">
                         We're a group of software and web development enthusiasts who share the same values and a vision for the future of decentralized solutions.
                     </p>
 
-                    <h3 className="font-normal text-lg mt-10">
+                    <h3 className="text-xl mt-10 leading-">
                         Our team, born from a group of long-time friends and collaborators, started with a common goal: recognizing the untapped potential of software and web development. What sets us apart is our close-knit bond and understanding of each other's strengths.
                     </h3>
 
@@ -26,7 +26,7 @@ export default function Team() {
             </div>
 
             <div className="ta-l">
-                <h1 className="text-4xl font-medium">
+                <h1 className="text-5xl mb-10">
                     Our <span className="text-main">Team</span>
                 </h1>
 

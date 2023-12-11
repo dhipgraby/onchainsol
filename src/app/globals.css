@@ -263,14 +263,14 @@ nav ul {
 
 .blue-gradient {
   transition: 1s;
-  background-image: radial-gradient(closest-side at 18% 69%, #413fbc -15%, transparent 136%);
+  background-image: radial-gradient(closest-side at 18% 69%, #413fbc -20%, transparent 106%);
 }
 
 .valign-middle {
   display: table !important;
 }
 
-.valign-middle div:first {
+.valign-middle div:first-child {
   display: table-cell;
   vertical-align: middle;
 }
@@ -391,13 +391,43 @@ tbody tr:hover td:first-child:after {
 }
 
 .teamCard {
-  position: relative;  
+  position: relative;
   min-height: 370px;
   margin-top: 20px;
   padding: 20px;
   border-radius: 20px;
   background-color: var(--bg-dark-200);
   box-shadow: 0px 9px 17px 0px #000000;
+}
+
+.serviceCard {
+  height: 220px;
+  width: 250px;
+  place-items: center;
+  padding: 10px;
+  border-radius: 20px;
+  margin-top: 40px;
+  transition: 0.5s;
+  background-color: var(--bg-dark-100);
+  border: solid 6px var(--bg-dark);
+  box-shadow: 0px 9px 10px 0px #000000;
+  transform: rotateY(0deg) scale(1);
+  transform-origin: center
+}
+
+.serviceCard:hover {
+  transform: scale(1.1);
+  border: solid 6px var(--bg-dark-100);
+}
+
+
+.serviceCard:hover svg {
+  color: var(--main);
+}
+
+.serviceCard:hover~.serviceCard {
+  transform: rotateY(20deg) scale(.8);
+  border: solid 6px var(--bg-dark-300);
 }
 
 .teammember {

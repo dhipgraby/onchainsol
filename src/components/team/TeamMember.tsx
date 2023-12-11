@@ -31,7 +31,7 @@ export default function TeamMember(
 
                 </div>
 
-                <h3 className="text-lg text-main my-5 ta-c">
+                <h3 className="text-2xl text-main my-5 ta-c">
                     {name}
                 </h3>
                 {jobs.map((job: any, i) => {
@@ -42,7 +42,7 @@ export default function TeamMember(
                     </div>
                 })}
 
-                <p className="text-md mt-2 text-gray-200">
+                <p className="text-lg mt-2 text-gray-200">
                     {content}
                 </p>
                 <div className="absolute top-3 right-4">

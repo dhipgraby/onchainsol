@@ -10,17 +10,17 @@ import Contact from "@/components/Contact";
 export default function Home() {
   return (
     <>
-      <div className="max-w-5xl mx-auto pt-40 pb-40">
+      <div className="max-w-6xl mx-auto pt-40 pb-40 blue-gradient">
         <Flexsor columns={2}>
           <div className='ta-l headerTitle'>
-            <h1 className='text-4xl leading-normal blue-gradient'>
+            <h1 className='text-5xl leading-normal'>
               Software ,
               <br />
-              Web & Web3 
+              Web & Web3
               <br />
               Development Company
             </h1>
-            <p className="text-gray-300">
+            <p className="text-purple text-xl">
               Unlock the Potential of your business with  cutting-edge technology
             </p>
           </div>
