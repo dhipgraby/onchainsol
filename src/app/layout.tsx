@@ -8,6 +8,7 @@ import '@fortawesome/fontawesome-svg-core/styles.css'
 import "react-toastify/dist/ReactToastify.css";
 import Navbar from "../components/NavBar";
 import Footer from "../components/Footer";
+import Script from 'next/script'
 import { ToastContainer } from "react-toastify";
 
 export default function RootLayout({
@@ -18,6 +19,16 @@ export default function RootLayout({
 
   return (
     <html lang="en">
+      <Script src="https://www.googletagmanager.com/gtag/js?id=G-SX2C2CYXJV" />
+      <Script id="google-analytics">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+ 
+          gtag('config', 'G-SX2C2CYXJV');
+        `}
+      </Script>
       <body className='body'>
         <ToastContainer />
         <Navbar />
@@ -26,6 +37,7 @@ export default function RootLayout({
         </div>
         <Footer />
       </body>
+
     </html>
   );
 }

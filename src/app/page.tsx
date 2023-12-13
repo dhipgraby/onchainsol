@@ -16,7 +16,7 @@ export default function Home() {
             <h1 className='text-5xl leading-normal'>
               Software ,
               <br />
-              Web & Web3
+              <span className="text-main">Web & Web3</span>
               <br />
               Development Company
             </h1>
