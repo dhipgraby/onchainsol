@@ -27,7 +27,6 @@ export default function BlockchainServices() {
         }
     };
 
-
     return (
         <div className="ta-c max-w-5xl mx-auto blockchainServices">
 

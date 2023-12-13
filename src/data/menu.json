@@ -18,12 +18,6 @@
         "isButton": false
     },
     {
-        "name": "Projects",
-        "link": "/#projects",
-        "scrollto": null,
-        "isButton": false
-    },
-    {
         "name": "Contact",
         "link": null,
         "scrollto": "contactSection",
