@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "title": "Smart Contract development",
+        "content": "Designs and develops secure, efficient, and customizable smart contracts tailored to your specific business needs. We ensure seamless functionality and adaptability by leveraging experience in complex smart contract creation and Solidity programming.",
+        "img": "smartc.png",
+        "dir": "left",
+        "size": 350
+    },
+    {
+        "id": 2,
+        "title": "Smart Contract Audit",
+        "content": "Our experienced auditors conduct thorough audits of your smart contracts, guaranteeing the highest level of security and compliance with industry standards. We mitigate risks and vulnerabilities by drawing on extensive background in blockchain development, web3 integrations, and Dapps.",
+        "img": "btctower.png",
+        "dir": "left",
+        "size": 300
+    },
+    {
+        "id": 3,
+        "title": "Decentrilized Applications (DAPPS)",
+        "content": "Create, design and deploy your decentralized aplications.",
+        "img": "blockheader.png",
+        "dir": "left",
+        "size": 400
+    },
+    {
+        "id": 4,
+        "title": "Nodes & Infrastructure",
+        "content": "DevOps solutions and server infrastructure are designed to support the rapid growth of your blockchain projects, ensuring optimal performance, reliability, and scalability.",
+        "img": "nodes.png",
+        "dir": "center",
+        "size": 450
+    },
+    {
+        "id": 5,
+        "title": "Web3 Integrations",
+        "content": "Empowering Your Business with Decentralized Innovation. Our team comprises seasoned professionals with a deep understanding of Web3 technologies and a proven track record of successful integrations.",
+        "img": "integration.png",
+        "dir": "center",
+        "size": 450
+    },
+    {
+        "id": 6,
+        "title": "Blockchain Education",
+        "content": "Book Live sessions, general blockchain concepts, coding, trading and more. Lay a solid foundation by understanding the core concepts, principles, and components that make up blockchain technology. Dive into the world of self-executing contracts, learning how to design, deploy, and manage smart contracts on various blockchain platforms.",
+        "img": "coinbubbles.png",
+        "dir": "center",
+        "size": 300
+    }
+]

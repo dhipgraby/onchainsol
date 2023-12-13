@@ -1,5 +1,11 @@
 [
     {
+        "name": "Home",
+        "link": "/",
+        "scrollto": null,
+        "isButton": false
+    },
+    {
         "name": "About us",
         "link": "/team",
         "scrollto": null,

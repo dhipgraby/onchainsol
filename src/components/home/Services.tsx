@@ -1,9 +1,13 @@
-import { faCloud, faCode, faCog, faDatabase, faLaptop, faShield, faWindowRestore } from "@fortawesome/free-solid-svg-icons";
+'use client'
+import { faCode, faCog, faLaptop, faShield, faWindowRestore } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Flexsor from "../Flexsor";
 import { faEthereum } from "@fortawesome/free-brands-svg-icons";
+import { useRouter } from 'next/navigation'
 
 export default function Services() {
+
+    const router = useRouter()
 
     function renderIcon(icon: any) {
         return <FontAwesomeIcon className="text-gray-400 text-6xl" icon={icon} />
@@ -30,7 +34,7 @@ export default function Services() {
                         {renderTitle("Website Development")}
                     </div>
                 </div>
-                <div className="serviceCard gradient-clear valign-middle">
+                <div onClick={() => router.push("/web3")} className="serviceCard gradient-clear valign-middle">
                     <div>
                         {renderIcon(faEthereum)}
                         {renderTitle("Web3 & Blockchain Development")}

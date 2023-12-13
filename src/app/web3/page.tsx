@@ -1,17 +1,10 @@
-import Flexsor from "@/components/Flexsor"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+'use client'
+import BlockchainServices from "@/components/web3/BlockchainServices"
+import Services from "../../data/blockchain.json"
+import ServiceCard from "@/components/web3/ServiceCard"
+import Contact from "@/components/Contact"
 
 export default function Web3() {
-
-    function renderIcon(icon: any) {
-        return <FontAwesomeIcon className="text-main text-6xl" icon={icon} />
-    }
-
-    function renderTitle(title: string) {
-        return <h3 className="text-xl mt-10 p-2">
-            {title}
-        </h3>
-    }
 
     return (
         <>
@@ -27,28 +20,29 @@ export default function Web3() {
                 </div>
             </div>
 
-            <div>
-                <h1 className="text-4xl">
+            <div className="mt-10">
+                <h1 className="text-4xl ta-c">
                     Browse Through Our Services
                 </h1>
-                <Flexsor columns={4}>
-
-                    <div>
-
-                    </div>
-                    <div>
-
-                    </div>
-                    <div>
-
-                    </div>
-                    <div>
-
-                    </div>
-
-                </Flexsor>
+                <BlockchainServices />
             </div>
-
+            <div className="pt-20 blue-gradient-big">
+                <div className="mt-20 max-w-5xl mx-auto services">
+                    {Services.map((service) => {
+                        return <div key={service.id}>
+                            <ServiceCard
+                                id={service.id}
+                                title={service.title}
+                                content={service.content}
+                                img={service.img}
+                                dir={service.dir}
+                                size={service.size}
+                            />
+                        </div>
+                    })}
+                </div>
+            </div>
+            <Contact />
         </>
     )
 }

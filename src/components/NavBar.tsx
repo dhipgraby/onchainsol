@@ -11,7 +11,7 @@ export default function Navbar() {
 
     return (
         <div className="fixed top-0 z-10 w-full">
-            <nav className='navbar z-10 flex shadow-lg items-center min-w-screen p-1'>
+            <nav className='navbar z-10 flex items-center min-w-screen p-1'>
 
                 <ul className='desktopMenu rounded-full w-full h-8 gap-4 lg items-center sm:flex text-black'>
                     <li className='flex gap-4 items-center'>
