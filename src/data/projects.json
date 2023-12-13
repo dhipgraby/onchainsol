@@ -75,7 +75,7 @@
         "content": "Contribute to Medical institutes, organizations, researchers, and more by providing your Lab results as verifiable credentials (VC)",
         "img": "medicalimg.png",
         "logo": "medical.png",
-        "id": 4,
+        "id": 5,
         "button": "btn-dark",
         "external_link": "https://medical-research-hub.vercel.app/"
     }

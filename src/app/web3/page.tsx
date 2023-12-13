@@ -3,6 +3,7 @@ import BlockchainServices from "@/components/web3/BlockchainServices"
 import Services from "../../data/blockchain.json"
 import ServiceCard from "@/components/web3/ServiceCard"
 import Contact from "@/components/Contact"
+import { SliderButton } from '@typeform/embed-react'
 
 export default function Web3() {
 
@@ -16,7 +17,7 @@ export default function Web3() {
                     <hr className="divider" />
                     <p className="text-gray-200 text-xl">
                         Empowering businesses and individuals to turn ideas into reality through cutting-edge blockchain technology.
-                    </p>
+                    </p>             
                 </div>
             </div>
 

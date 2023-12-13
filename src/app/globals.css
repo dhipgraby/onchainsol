@@ -149,14 +149,14 @@ nav {
   margin: auto;
   color: white;
   overflow: hidden;
-  animation: expandWidth 2s ease-in-out 1;
+  animation: showHidden 2s ease-in-out 1;
 }
 
 nav .btn-primary, nav .title, nav ul li {
   opacity: 1;
   overflow: hidden;
   transition: 0.5s;
-  animation: showHidden 2.5s ease-in-out 1;
+  animation: showHidden 3s ease-in-out 1;
 }
 
 nav ul li a:hover {

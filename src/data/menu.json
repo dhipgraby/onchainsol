@@ -16,11 +16,5 @@
         "link": "/web3",
         "scrollto": null,
         "isButton": false
-    },
-    {
-        "name": "Contact",
-        "link": null,
-        "scrollto": "contactSection",
-        "isButton": false
     }
 ]

@@ -2,12 +2,23 @@
 import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faClose, faCodeBranch } from "@fortawesome/free-solid-svg-icons";
+import { SliderButton } from '@typeform/embed-react'
 import MenuItems from "../data/menu.json"
 import Link from "next/link";
 
 export default function Navbar() {
 
     const [showMenu, setShowMenu] = useState(false);
+
+    const buttonStyle = {
+        padding: '7px 20px',
+        borderRadius: 50,
+        border: 'none',
+        background: 'black',
+        color: 'white',
+        fontSize: 18,
+        cursor: 'pointer',
+    }
 
     return (
         <div className="fixed top-0 z-10 w-full">
@@ -31,16 +42,21 @@ export default function Navbar() {
 
                     {
                         MenuItems.map((item, i) => {
-                            return item.link !== null
-                                ? <li className='flex gap-4 items-center' key={i}>
-                                    <Link href={item.link} className="text-white">{item.name}</Link>
-                                </li>
-                                :
-                                <li className='flex gap-4 items-center' key={i}>
-                                    <button className="btn-dark">{item.name}</button>
-                                </li>
+                            return <li className='flex gap-4 items-center' key={i}>
+                                <Link href={item.link} className="text-white">{item.name}</Link>
+                            </li>
                         })
                     }
+
+                    <SliderButton
+                        id="wjD4Fbq5"
+                        position="right"
+                        width="500"
+                        style={buttonStyle}
+                    >
+                        Contact
+
+                    </SliderButton>
 
                 </ul>
 

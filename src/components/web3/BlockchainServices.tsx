@@ -1,7 +1,8 @@
-import { faBorderNone, faCode, faCog, faCube, faEye, faFileSignature, faGraduationCap, faHouseLaptop, faLaptop, faNetworkWired, faServer, faShield, faTasks, faWindowRestore } from "@fortawesome/free-solid-svg-icons";
+'use client'
+import { faEye, faGraduationCap, faHouseLaptop, faServer, faTasks } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import Flexsor from "../Flexsor";
 import { faEthereum } from "@fortawesome/free-brands-svg-icons";
+import Flexsor from "../Flexsor";
 
 export default function BlockchainServices() {
 
