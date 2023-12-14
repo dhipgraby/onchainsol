@@ -5,6 +5,8 @@ import { faBars, faClose, faCodeBranch } from "@fortawesome/free-solid-svg-icons
 import { SliderButton } from '@typeform/embed-react'
 import MenuItems from "../data/menu.json"
 import Link from "next/link";
+import Image from "next/image";
+import Logo from "../../public/images/logo1.png"
 
 export default function Navbar() {
 
@@ -28,11 +30,9 @@ export default function Navbar() {
                     <li className='flex gap-4 items-center'>
                         <Link href="/">
                             <span className='items-center flex gap-2 flex'>
-                                <span className="logo">
-                                    <FontAwesomeIcon className="text-purple text-3xl" icon={faCodeBranch} />
-                                </span>
+
                                 <span className="hidden title md:flex">
-                                    Onchain <span className="text-purple ml-1">Solutions</span>
+                                    <Image src={Logo} alt="logo" width={160} height={160} />
                                 </span>
                             </span>
                         </Link>
@@ -69,7 +69,7 @@ export default function Navbar() {
                     <li className='w-1/4 pt-1 ta-r'>
                         <Link href={"/"}>
                             <span className="logo ta-r">
-                                <FontAwesomeIcon className="text-white" icon={faCodeBranch} />
+                                <Image src={Logo} alt="logo" width={180} height={180} />
                             </span>
                         </Link>
                     </li>

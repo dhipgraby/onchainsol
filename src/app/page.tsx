@@ -6,6 +6,7 @@ import TechStack from "@/components/home/TechStack";
 import Flexsor from "@/components/Flexsor";
 import Projects from "@/components/home/Projects";
 import Contact from "@/components/Contact";
+import Logo from "../../public/images/logosm.png"
 
 export default function Home() {
   return (
@@ -25,7 +26,7 @@ export default function Home() {
             </p>
           </div>
           <div className='ta-c mt-10'>
-            <Image className="swing" src={Nodes} alt="homeImg" width={500} height={500} />
+            <Image className="swing" src={Nodes} alt="homeImg" width={450} height={450} />
           </div>
         </Flexsor>
       </div>
