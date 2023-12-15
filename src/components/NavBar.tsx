@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars, faClose, faCodeBranch } from "@fortawesome/free-solid-svg-icons";
+import { faBars, faClose } from "@fortawesome/free-solid-svg-icons";
 import { SliderButton } from '@typeform/embed-react'
 import MenuItems from "../data/menu.json"
 import Link from "next/link";
