@@ -36,7 +36,7 @@ export default function TeamMember(
                 </h3>
                 {jobs.map((job: any, i) => {
                     return <div className="inline-flex">
-                        <span className="bg-main-300 text-white rounded-full px-2 mx-2 text-sm" key={i}>
+                        <span className="bg-main-300 text-white rounded-full px-2 mr-2 text-sm" key={i}>
                             {job}
                         </span>
                     </div>

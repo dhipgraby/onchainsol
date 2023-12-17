@@ -41,5 +41,16 @@
         ],
         "content": "Gabriel, a tech enthusiast and computer science specialist with +15 years of experience in server management and security, is deeply passionate about cryptography and artificial intelligence",
         "img": "gabriel.jpg"
+    },
+    {
+        "name": "Taha Dhailey",
+        "linekdin": "https://www.linkedin.com/in/taha-dhailey-0a813b83/",
+        "jobs": [
+            "Consultant",
+            "Blockchain",
+            "Mentor"
+        ],
+        "content": "Blockchain Developer Engineer and Researcher having 8+ years of experience with a background in IT, Startups, and Management. Tech consultant for enterprises and mentor for new users and learners.",
+        "img": "taha.jpeg"
     }
 ]
