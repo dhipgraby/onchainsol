@@ -22,14 +22,14 @@
             80
         ],
         "palette": "light",
-        "title": "TxStreets.com",
+        "title": "Txcity.io",
         "subtitle": "See the Blockchain. Live.",
         "content": "TxStreets is a real time transaction and mempool visualizer featuring Bitcoin, Ethereum, Bitcoin Cash, Monero and Litecoin.",
         "img": "txcityimg.png",
         "logo": "txcity.png",
         "id": 2,
         "button": "btn-primary",
-        "external_link": "https://txstreets.com"
+        "external_link": "https://txcity.io"
     },
     {
         "backgroundColor": "bg-black gradient-clear",
